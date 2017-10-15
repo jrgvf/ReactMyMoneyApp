@@ -9,7 +9,7 @@ export default props => (
   <div className='wrapper'>
     <Header />
     <Sidebar />
-    <div className='content-wrapper'>
+    <div className='content-wrapper' style={{minHeight: window.innerHeight - 101}}>
       {props.children}
     </div>
     <Footer />
